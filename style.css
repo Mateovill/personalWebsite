@@ -1,65 +1,78 @@
  html {
-     background-color: bisque;
- 
+    background-color: bisque;
+ }
 
+ body {
+    background-color: white;
+    min-height: 75vh;
  }
 
  .head {
-     background: sienna;
-     padding: 20px;
-     justify-content: space-between;
-     display: flex;
-     box-shadow: black;
-     margin: 0px;
+    box-shadow: 0 0 12px -2px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+    background: sienna;
+    display: flex;
+    justify-content: space-between;
  }
 
  .head_name {
-     font-size: 35px;
+    font-size: 35px;
  }
-.head_name{
-    
-}
+
+ .homepage {
+    margin-top: 9rem;
+ }
+
  h1 {
-    color: darkblue;
+    box color: darkblue;
+
  }
 
  .button1 {
-    border-width: 2px;
-  color: black;
-  background-color: burlywood;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  text-decoration: wavy;
+    border-width: 5px;
+    color: black;
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: wavy;
  }
- 
-.para1{
-   font-size: 35px;
-}
 
+ .button1:hover {
+    color: red;
+    font-size: 26px;
+ }
 
- .para2{
-    margin:  10px 30px;
-    padding: 5px 5px;
-    border: 1px;
+ .para1 {
+    font-size: 35px;
+ }
+
+ .image1 {
+    width: 542px;
+    height: 608px;
+margin-left: 19rem;
+ }
+
+ .para2 {
+    padding-bottom: 20px;
     width: 550px;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-display:inline-block;
+    display: inline-block;
+    text-align: center;
  }
 
- #image1 {
-    margin:  10px 30px;
-    padding: 5px 5px;
-    border: 1px;
-    width: 550px;
-    font-size: 30px;
-    display: inline-block;
- }
- 
  h2 {
     color: red;
     align-content: center;
+    margin-top: 9rem;
+    padding: 10px
  }
