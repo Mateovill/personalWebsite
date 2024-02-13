@@ -5,6 +5,7 @@
  body {
     background-color: white;
     min-height: 75vh;
+    display: block;
  }
 
  .head {
@@ -71,8 +72,29 @@ margin-left: 19rem;
  }
 
  h2 {
-    color: red;
+    color:brown;
     align-content: center;
     margin-top: 9rem;
     padding: 10px
  }
+ h3{
+  font-family: cursive;
+  font-size: 30px;
+   color:saddlebrown
+ }
+ .firstimage {
+   width: 150px;
+   height: 100px;
+   display: flex;
+flex-direction:unset;
+ }
+.p1 {
+   font-size: 15px;
+}
+
+main{
+   
+   flex-direction: column;
+   align-items: center;  
+}
+
